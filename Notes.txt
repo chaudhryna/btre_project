@@ -1,0 +1,22 @@
+To create the virtual environment: (The first venv is the name of the environment and the ./venv is telling it to install in the current directory and call it venv)
+
+python3 -m venv ./venv
+
+To activate the environment:
+
+source ./venv/bin/activate
+
+To deactivate:
+
+deactivate
+
+To create project:
+
+django-admin startproject btre .
+
+Initialize git:
+git init 
+
+Create .gitignore file
+
+Use gitignore.io to find what to put in this file.
