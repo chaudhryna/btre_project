@@ -14,6 +14,14 @@ To create project:
 
 django-admin startproject btre .
 
+To create an app (where 'pages' is the name of the app):
+
+python manage.py startapp pages
+
+Register it in the Settings file as:
+
+"pages.apps.PagesConfig",
+
 Initialize git:
 git init 
 
